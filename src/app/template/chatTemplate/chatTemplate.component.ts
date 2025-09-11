@@ -10,7 +10,7 @@ import { MyMessageComponent } from '@components/chat-bubbles/myMessage/myMessage
 import { TextMessageEvent } from '@components/text-boxes/textMessageBoxFile/textMessageBoxFile.component';
 import { TextMessageBoxEvent } from '@components/text-boxes/textMessageBoxSelect/textMessageBoxSelect.component';
 import { TypingLoaderComponent } from '@components/typingLoader/typingLoader.component';
-import { Message } from '@interfaces/message.interface';
+import { Message } from '@interfaces/IMessage';
 import { AiService } from 'app/presentation/services/ai.service';
 import { TextMessageBoxComponent } from "@components/text-boxes/textMessageBox/textMessageBox.component";
 

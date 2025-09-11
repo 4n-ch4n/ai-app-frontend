@@ -1,4 +1,4 @@
-import { OrthographyResponse } from '@interfaces/IOrthography';
+import { OrthographyResponse } from '@interfaces/index';
 import { environment } from 'environments/environment';
 
 export const orhtographyUseCase = async (prompt: string) => {
