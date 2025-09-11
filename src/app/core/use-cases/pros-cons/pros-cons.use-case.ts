@@ -1,4 +1,4 @@
-import { IProsConsResponse } from '@interfaces/index';
+import type { IProsConsResponse } from '@interfaces/index';
 import { environment } from 'environments/environment';
 
 export const prosConsUseCase = async (prompt: string) => {

@@ -3,6 +3,7 @@ import {
   orhtographyUseCase,
   prosConsStreamUseCase,
   prosConsUseCase,
+  translateUseCase,
 } from '@use-cases/index';
 import { from } from 'rxjs';
 
@@ -18,5 +19,9 @@ export class AiService {
 
   discussPronsConsStream(prompt: string, abortSignal: AbortSignal) {
     return prosConsStreamUseCase(prompt, abortSignal);
+  }
+
+  translateText(prompt: string, lang: string) {
+    return from(translateUseCase(prompt, lang));
   }
 }
