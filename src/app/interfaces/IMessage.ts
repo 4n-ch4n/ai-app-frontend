@@ -1,7 +1,8 @@
 export interface Message {
   text: string;
   isAI: boolean;
-  info?: Info
+  info?: Info;
+  audioUrl?: string;
 }
 
 export interface Info {

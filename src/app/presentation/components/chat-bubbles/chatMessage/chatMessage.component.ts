@@ -8,5 +8,6 @@ import { MarkdownComponent } from "ngx-markdown";
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ChatMessageComponent {
-  text = input.required<string>()
+  text = input.required<string>();
+  audioUrl = input<string>();
 }
